@@ -11,9 +11,9 @@ class OnboardingPage extends GetView<OnboardingController> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-    appBar: AppBar(title: Text('OnboardingPage')),
+    appBar: AppBar(title: const Text('OnboardingPage')),
 
-    body: SafeArea(
+    body: const SafeArea(
       child: Text( 'OnboardingController'),
       ),
     );

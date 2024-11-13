@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:tukkl/res/consts/assests.dart';
+import 'package:tukkl/res/consts/strings.dart';
+import 'package:tukkl/res/consts/styles.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 import '../controller/splash_controller.dart';
 // import 'package:tukkl/controller/splash_controller.dart';
@@ -11,10 +15,17 @@ class SplashPage extends GetView<SplashController> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-    appBar: AppBar(title: Text('SplashPage')),
 
-    body: SafeArea(
-      child: Text('SplashController'),),
+    body: Center(
+      child: Column(
+        children: [
+        Spacer(),
+        Image.asset(AppAssets.logo, width: 140,),
+        Spacer(),
+        Text(AppStrings.poweredBy, style: AppStyles.regular(size: 12),),
+        20.heightBox,],
+      ),
+    )
     );
   }
 }

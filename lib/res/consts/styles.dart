@@ -2,7 +2,7 @@ import 'package:tukkl/res/consts/consts.dart';
 
 class AppStyles
 {
-  TextStyle regular({Color? color, String? fontfamily =AppFonts.regular, double? size= 14.0,
+  static TextStyle regular({Color? color, String? fontfamily =AppFonts.regular, double? size= 14.0,
   FontWeight? fontweight =FontWeight.normal}){
     return TextStyle(
       color: color,
