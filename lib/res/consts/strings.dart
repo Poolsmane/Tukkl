@@ -3,7 +3,7 @@ class AppStrings{
   static const poweredBy="KP";
   //Onboarding code
 
-  static const OnboardingTitle0 ="Explore Ltest News";
+  static const OnboardingTitle0 ="Explore Latest News";
   static const OnboardingTitle1 ="Get Notified First";
   static const OnboardingTitle2 ="Save Articles";
   static const OnboardingDesc0 ="Explore latest news and happenings around the world in a minute ...";

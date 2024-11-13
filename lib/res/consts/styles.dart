@@ -13,7 +13,7 @@ class AppStyles
     );
   }
 
-  TextStyle semibold({Color? color, String? fontfamily =AppFonts.semibold, double? size= 14.0,
+  static TextStyle semibold({Color? color, String? fontfamily =AppFonts.semibold, double? size= 14.0,
   FontWeight? fontweight}){
     return TextStyle(
       color: color,
@@ -24,7 +24,7 @@ class AppStyles
     );
   }
 
-  TextStyle bold({Color? color, String? fontfamily =AppFonts.bold, double? size= 14.0,
+  static TextStyle bold({Color? color, String? fontfamily =AppFonts.bold, double? size= 14.0,
   FontWeight? fontweight}){
     return TextStyle(
       color: color,

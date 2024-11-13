@@ -13,7 +13,7 @@ SplashController();
     super.onInit();
   }
   navigateScreen(){
-    Future.delayed(Duration(seconds: 4),(){
+    Future.delayed(const Duration(seconds: 4),(){
       Get.toNamed(RouteName.onboarding);
     });
   }

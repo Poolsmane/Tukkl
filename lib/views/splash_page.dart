@@ -19,9 +19,9 @@ class SplashPage extends GetView<SplashController> {
     body: Center(
       child: Column(
         children: [
-        Spacer(),
+        const Spacer(),
         Image.asset(AppAssets.logo, width: 140,),
-        Spacer(),
+        const Spacer(),
         Text(AppStrings.poweredBy, style: AppStyles.regular(size: 12),),
         20.heightBox,],
       ),

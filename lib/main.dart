@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
     
         fontFamily: AppFonts.regular,
         scaffoldBackgroundColor: const Color.fromARGB(255, 138, 145, 238),
-        iconTheme: IconThemeData(
+        iconTheme: const IconThemeData(
           color: AppColors.icon,
         ),
       ),
